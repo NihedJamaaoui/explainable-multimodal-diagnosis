@@ -1,0 +1,31 @@
+# Données PhysioNet (JAMAIS sur GitHub)
+*.csv
+*.npy
+*.jpg
+*.png
+*.dcm
+*.pth
+*.pth.tar
+*.pt
+data/raw/
+data/processed/
+resultats/
+checkpoints/
+
+# Credentials
+.physionet
+*.netrc
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Logs SLURM
+*.out
+*.err
+slurm-*
+
+# Windows
+Thumbs.db
+tmp/
