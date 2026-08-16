@@ -1,0 +1,21 @@
+# Core
+torch>=2.0
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# Encoders
+open_clip_torch>=2.20
+transformers>=4.35
+Pillow>=10.0
+
+# Report generation (RAG)
+sentence-transformers>=2.2
+rouge_score>=0.1.2
+
+# Generation model quantisation
+bitsandbytes>=0.41
+accelerate>=0.24
+
+# Plotting
+matplotlib>=3.7
