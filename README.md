@@ -1,8 +1,7 @@
-\# Grounded and Consistent Multimodal Learning for Explainable Chest Disease Diagnosis
+# Grounded and Consistent Multimodal Learning for Explainable Chest Disease Diagnosis
 
 
-
-\*Fusing Chest Radiographs (MIMIC-CXR) and Electronic Health Records (MIMIC-IV)\*
+*Fusing Chest Radiographs (MIMIC-CXR) and Electronic Health Records (MIMIC-IV)*
 
 
 
@@ -10,23 +9,23 @@ Code for a Master's research thesis (UQAR / Mitacs Globalink) on an
 
 explainable multimodal framework that fuses chest radiographs and electronic
 
-health records, with two contributions: \*\*anatomical grounding\*\* (L\_ground)
+health records, with two contributions: **anatomical grounding** (L\_ground)
 
-and \*\*cross-modal consistency\*\* (L\_consist).
-
-
-
-\## Overview
+and **cross-modal consistency** (L\_consist).
 
 
 
-A frozen BiomedCLIP-ViT image encoder and a frozen Bio\_ClinicalBERT text
+## Overview
+
+
+
+A frozen BiomedCLIP-ViT image encoder and a frozen Bio_ClinicalBERT text
 
 encoder are fused through cross-attention, trained with a composite objective:
 
 
 
-&#x20;   L\_total = L\_task + lambda1 \* L\_ground + lambda2 \* L\_consist
+   **L\_total = L\_task + lambda1 \* L\_ground + lambda2 \* L\_consist**
 
 
 
@@ -36,7 +35,7 @@ into a written diagnostic report.
 
 
 
-\## Key results (test set, 2,779 images)
+## Key results (test set, 2,779 images)
 
 
 
@@ -56,7 +55,7 @@ into a written diagnostic report.
 
 
 
-\### Direct comparison of fusion strategies (same cohort, same inputs)
+### Direct comparison of fusion strategies (same cohort, same inputs)
 
 
 
@@ -76,7 +75,7 @@ into a written diagnostic report.
 
 
 
-\## Repository structure
+## Repository structure
 
 
 
@@ -92,7 +91,7 @@ into a written diagnostic report.
 
 
 
-\## Data access
+## Data access
 
 
 
@@ -104,7 +103,7 @@ requires credentialed PhysioNet approval.
 
 
 
-\## Reproducibility
+## Reproducibility
 
 
 
@@ -116,7 +115,7 @@ Compute nodes have no internet, so pre-cache the models
 
 
 
-\## License
+## License
 
 
 
